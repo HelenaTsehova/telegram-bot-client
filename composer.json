@@ -1,0 +1,20 @@
+{
+    "name": "helenatsehova/telegram-bot-client",
+    "description": "telegram-bot-client",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Helenatsehova\\TelegramBotClient\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tsehova Elena"
+        }
+    ],
+    "require": {
+        "symfony/http-client": "^6.0",
+        "symfony/http-foundation": "^6.0",
+        "symfony/dependency-injection": "^6.0"
+    }
+}
